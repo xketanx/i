@@ -1,0 +1,11 @@
+#!/bin/sh
+export TERM=xterm-256color
+red=$( tput setaf 1 );
+normal=$( tput sgr 0);
+echo
+echo "${red}-------------------------------------------------------------------------------
+ansible added this line with the help of various thing hope you like this
+created by :ketan 
+thanks for login 
+
+--------------------------------------------------------------------------------${normal}"
